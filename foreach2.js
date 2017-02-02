@@ -15,3 +15,7 @@
 // > Pizza is very delicious
 // > Tacos is mostly delicious
 // > Cottage Cheese is not very delicious
+
+foods.forEach(function(food){
+	console.log(food.name + " is " + food.level + " delicious")
+});

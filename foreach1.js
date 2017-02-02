@@ -11,3 +11,7 @@ var foods = ["pizza", "tacos", "ice cream"];
 // > "I like pizza"
 // > "I like tacos"
 // > "I like ice cream"
+
+foods.forEach(function(food){
+	console.log("I like", food);
+});

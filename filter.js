@@ -25,6 +25,15 @@ var isCool = function(person) {
 	return person.coolnessScore > 20;
 }
 
+var coolPeople = people.filter(isCool);
+// with for each
+coolPeople.forEach(function(person){
+	console.log(person.name, "is cool");
+})
+// with for loop
+// for(var i = 0; i < coolPeople.length; i++){
+// 	console.log(coolPeople[i].name + " is cool");
+// }
 // Example results:
 //
 // Bob is cool
